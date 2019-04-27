@@ -11,7 +11,7 @@ import React from 'react';
 import Center, {CenterMode} from '@react-toolset/mui-center';
 
 const Centered = ()=> {
-        return <Center mode={CenterMode.Parent}></Center> 
+        return <Center mode={CenterMode.Parent}>...</Center> 
 }
 ```
 ##### with Javascript
@@ -20,6 +20,6 @@ import React from 'react';
 import Center from '@react-toolset/mui-center';
 
 const Centered = ()=> {
-        return <Center mode="parent"></Center> 
+        return <Center mode="parent">...</Center> 
 }
 ```
