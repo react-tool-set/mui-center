@@ -1,0 +1,36 @@
+{
+  "name": "@react-toolset/mui-center",
+  "version": "1.0.7",
+  "description": "Center components",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-tool-set/mui-center.git"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "mui",
+    "center"
+  ],
+  "author": "Denys Yarkovyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-tool-set/mui-center/issues"
+  },
+  "homepage": "https://github.com/react-tool-set/mui-center#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "typescript": "^3.4.5"
+  }
+}
